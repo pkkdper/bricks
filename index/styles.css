@@ -21,6 +21,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+  padding-bottom: 230px;
 }
 canvas { border: 5px black solid;}
 
@@ -59,7 +60,7 @@ canvas { border: 5px black solid;}
     opacity: 0.75;
   }
   
-  @keyframes glitch {
+  /* @keyframes glitch {
     0% {
       text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
         0.025em 0.04em 0 #fffc00;
@@ -88,7 +89,7 @@ canvas { border: 5px black solid;}
       text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
         -0.04em -0.025em 0 #fffc00;
     }
-  }
+  } */
 #startGameButton {
     position: relative;
 }

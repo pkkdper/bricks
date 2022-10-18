@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="../index/styles.css" />
-    <script src="../index/script.js"></script>
+ 
   </head>
   <body>
     <div class="start">
@@ -14,19 +14,18 @@
         </p>
       </div>
       <div id="startGameBtnDiv">
-        <button class="startGameBtn">Start</button>
+        <button class="startGameBtn" id ="startBtn">Start</button>
     </div>
     </div>
     <div class="game">
-      <canvas id="canvas" width="1400" height="800"></canvas>
+      <canvas id="canvas" width=1000 height=800></canvas>
       <div class="score game-score">
-        <button id="endGameBtn">End Game</button>
-        <button class="startGameBtn">Start Over</button>
+        <!-- <button id="endGameBtn">End Game</button> -->
       </div>
     </div>
     <div class="end">
       <div class="score end-score"></div>
-      <button class="startGameBtn">Again</button>
-    </div>
-  </body>
+      <button class="startGameBtn" id ="restartBtn">Again</button>
+    </div><script src="../index/script.js"></script>
+  </body>   
 </html>
